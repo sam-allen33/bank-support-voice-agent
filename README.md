@@ -6,10 +6,8 @@ takes to deploy a voice AI agent against a real business problem: where the work
 where it breaks, and what would have to change to put something like this in front
 of real customers.
 
-<!-- TODO: add a screenshot or a 20–30s screen recording here. A GIF of the agent
-     answering "What's my balance?" while a GET /get_balance request appears in the
-     ngrok log is the most convincing single thing you can show. "It works" beats
-     "here's code." -->
+<img width="1078" height="946" alt="Conversation History" src="https://github.com/user-attachments/assets/c3cb3cfe-4082-4a82-9e0e-614414c6caaa" />
+
 
 ---
 
@@ -80,16 +78,8 @@ really lives:
 - **Duty of care.** Route suspected fraud, financial hardship, and vulnerable callers
   straight to a human, as a first-class behavior rather than an afterthought.
 
-## Honest scope note
 
-This is a prototype I built to learn the platform. The local voice script
-(`talk_to_agent.py`) follows ElevenLabs' official SDK example; the mock API, the
-agent/tool/knowledge-base configuration, the evaluation design, and this analysis are
-my own work. The "what production would require" section reflects how I'd think about
-taking it further, not features that are implemented here.
 
 ---
 
-<!-- TODO: add your name / contact, and (optional) a one-line note on why this role
-     interests you. -->
-**Built by [your name].**
+Samuel Allen - Deployment - Identifying Opportunity
