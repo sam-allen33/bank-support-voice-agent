@@ -47,19 +47,11 @@ Full build steps are in **[SETUP.md](./SETUP.md)** if you want to run it yoursel
 
 ## What I learned
 
-<!-- TODO: rewrite these in your own words — what genuinely surprised you. Authentic
-     observations read very differently from polished bullet points. A few I noticed: -->
-
-- **The model is the easy part; the integration is the job.** Getting a great voice
-  was instant. Reliably connecting the agent to a backend and making it call the
-  right thing at the right moment was the real work.
-- **A tool's description is a control surface, not documentation.** The agent decides
-  whether to use a tool based on its description. Vague wording = the tool gets
-  ignored. Specific, intent-rich wording = it fires correctly.
-- **A single success metric hides what matters.** My first evaluation graded a
-  correctly-declined money transfer as "success" — which is right, but it lumps
-  "answered the question" and "safely refused" into one bucket. A regulated customer
-  would want those tracked separately.
+Although this is a simple tool to navigate the deployment process and outline integration, certain key principles became clear. 
+The voice and agent itself was instantaneous. The real work behinding deploying these tools to drive efficiency isn't picking a voice,
+it's ensuring the system is wired correctly. Reliably connecting the agent to a backend and making it call the right thing, at
+the write time is the work. Finally, determining outcomes and setting guidelines to conversations of success or failure. Insights,
+at this level are crucial to the development of the model and analytics for the user. 
 
 ## What production would actually require
 
