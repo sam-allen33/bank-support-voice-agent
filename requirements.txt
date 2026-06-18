@@ -1,0 +1,11 @@
+# Install everything with:  pip install -r requirements.txt
+#
+# If "elevenlabs[pyaudio]" fails, it's the audio part (pyaudio) needing a system
+# library. You can either install that system library (see talk_to_agent.py),
+# or skip the local voice script and talk to your agent in the dashboard instead.
+
+fastapi
+uvicorn[standard]
+elevenlabs[pyaudio]
+python-dotenv
+requests
